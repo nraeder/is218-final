@@ -3,9 +3,9 @@
 	date_default_timezone_set('America/New_York');
 	
 	$hostname = 'sql.njit.edu'; // Change this to your server settings. E.g., sql2.njit.edu
-	$database = 'mjlee';		// This should be your UCID (same as username)
-	$username = 'mjlee';		// This should be your UCID (same as database name)
-	$password = 'bGLWZ8Ae4';	// This is your NJIT mySQL password. It is likely different from your UCID password.
+	$database = 'nar28';		// This should be your UCID (same as username)
+	$username = 'nar28';		// This should be your UCID (same as database name)
+	$password = 'sHDnzTOEZ';	// This is your NJIT mySQL password. It is likely different from your UCID password.
 
 	
     try {
