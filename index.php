@@ -8,14 +8,14 @@
 ?>
 <style>
 html {
-	background-color: lightblue;
+	background-color: url(http://www.designbolts.com/wp-content/uploads/2014/03/Marron-Mixed-High-resolution-blurr-background1.jpg);
 }
 	
 div {
 	background-color: white;
 	color: black;
 	text-align: left;
-	margin-left: auto;
+	margin-left: ;
 	margin-right: auto;
 }
 </style>
