@@ -34,7 +34,7 @@
 	$sql = 'INSERT INTO accounts (`email`, `password`) VALUES ("'.$useremail.'", "'.$userpass.'")';
 	$results = runQuery($sql);
 	
-	echo "User Added.";
+	echo "User Registered.";
 
 ?>
 
