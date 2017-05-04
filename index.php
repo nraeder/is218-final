@@ -34,6 +34,10 @@
 			<input type="submit">
 		</form>
 	</div></center>
+	
+	<form method="get" action="/logIn.php">
+    		<button type="submit">Log In</button>
+	</form>
 
 			<?php
 			
