@@ -16,7 +16,7 @@ div {
 	opacity: 0.5;
 	color: white;
 	text-align: left;
-	width: auto;
+	width: 50%;
 	padding: 10px;
 	margin-top: 50px;
 }
