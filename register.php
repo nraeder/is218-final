@@ -21,7 +21,7 @@
 	$userpass  = $_REQUEST['Password'];
 
 	//Let's make sure the e-mail doesn't already exist.
-	$sql = 'SELECT * FROM Account and Profile Info where email="'.$useremail.'"';
+	$sql = 'SELECT * FROM Account WHERE email="'.$useremail.'"';
 	$results = runQuery($sql);
 	
 	//If the following line has results (the array length is more than 0), that means data/e-mail already exists.
@@ -31,7 +31,7 @@
 	}
 
 	//Let's add the data.
-	$sql = 'INSERT INTO Account and Profile Info (`email`, `password`) VALUES ("'.$useremail.'", "'.$userpass.'")';
+	$sql = 'INSERT INTO Account (`email`, `password`) VALUES ("'.$useremail.'", "'.$userpass.'")';
 	$results = runQuery($sql);
 	
 	echo "User Registered.";
