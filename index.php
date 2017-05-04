@@ -14,7 +14,7 @@ html {
 div {
 	background-color: white;
 	color: black;
-	text-align: left;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
