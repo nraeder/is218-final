@@ -23,7 +23,7 @@
 <body>
 	<div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
 		<h2>Log In</h2>
-		<form action="logIn.php" method="post">
+		<form action="register.php" method="post">
 			E-mail: <input type="text" name="email"><br>
 			Password: <input type="password" name="password"><br>
 			<input type="submit">
@@ -37,14 +37,14 @@
 			<?php
 			
 			// Run the SQL query and put the results into $results (array)
-			$results = runQuery("SELECT * FROM accounts ORDER BY id");
+			$results = runQuery("SELECT * FROM Account and Profile Info ORDER BY id");
 			
 			foreach ($results as $key=>$row) {
 				
 			    echo '<div class="row">';
 	            echo '   <h3>Account '.($key+1).' (Database ID: '.$row['id'].')</h3>';
-	            echo '   <p>E-Mail: '.$row['email'].'</p>';
-	            echo '   <p>Name: '.$row['fname'].' '.$row['lname'].'</p>';
+	            echo '   <p>E-Mail: '.$row['Email'].'</p>';
+	            echo '   <p>Name: '.$row['First Name'].' '.$row['Last Name'].'</p>';
 				echo '</div>';
 				echo '<br>';
 	
