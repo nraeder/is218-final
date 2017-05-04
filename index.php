@@ -23,7 +23,7 @@
 <body>
 	<center><div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
 		<h2>Register</h2>
-		<form action="logIn.php" method="post">
+		<form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
 			Last Name: <input type="text" name="Last Name"><br>
 			E-mail: <input type="text" name="Email"><br>
