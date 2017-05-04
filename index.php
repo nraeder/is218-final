@@ -7,10 +7,16 @@
 	
 ?>
 <style>
-div {
+html {
 	background-color: lightblue;
+}
+	
+div {
+	background-color: white;
 	color: black;
 	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 </style>
 
