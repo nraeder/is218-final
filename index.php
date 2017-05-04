@@ -26,10 +26,10 @@
 		<form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
 			Last Name: <input type="text" name="Last Name"><br>
-			E-mail: <input type="text" name="email"><br>
+			E-mail: <input type="text" name="Email"><br>
 			Phone Number: <input type="text" name="Phone Number"><br>
-			Birthday: <input type="text" name="DD/MM/YYYY"><br>
-			Gender: <input type="password" name="Gender"><br>
+			Birthday: <input type="text" name="Birthday"><br>
+			Gender: <input type="text" name="Gender"><br>
 			Password: <input type="password" name="Password"><br>
 			<input type="submit">
 		</form>
