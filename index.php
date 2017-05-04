@@ -46,8 +46,8 @@ h3 {
 
 <body>
 	<div>
-		<h2>Register</h2>
-		<h3><form action="register.php" method="post">
+		<h3><h2>Register</h2>
+		<form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
 			Last Name: <input type="text" name="Last Name"><br>
 			E-mail: <input type="text" name="Email"><br>
