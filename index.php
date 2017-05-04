@@ -6,7 +6,11 @@
 	include_once 'database.php';
 	
 ?>
-
+<style>
+div {
+	color: lightblue;
+}
+</style>
 
 <head>
 
