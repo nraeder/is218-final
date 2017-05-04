@@ -12,7 +12,9 @@ html {
 }
 
 h2 {
-	font-family: "Rockwell";	
+	font-family: "Rockwell";
+	font-size: 30px;
+	font-weight: 500;
 }
 	
 div {
