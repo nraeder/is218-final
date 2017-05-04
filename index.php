@@ -38,7 +38,7 @@
 			<?php
 			
 			// Run the SQL query and put the results into $results (array)
-			$results = runQuery("SELECT * FROM Account and Profile Info ORDER BY id");
+			$results = runQuery("SELECT * FROM Account ORDER BY id");
 			
 			foreach ($results as $key=>$row) {
 				
