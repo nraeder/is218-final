@@ -15,7 +15,7 @@ h2 {
 	font-size: 45px;
 }
 	
-div {
+ul {
 	font-family: "Cambria";
 	font-size: 20px;
 	color: white;
@@ -40,7 +40,7 @@ h3 {
     <meta name="author" content="">
 
     <title>To-Do List</title>
-
+	<h2>To-Do List</h2>
 </head>
 <body>
 
