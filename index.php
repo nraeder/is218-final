@@ -20,7 +20,6 @@ div {
 	font-family: "Rockwell";
 	font-size: 20px;
 	color: white;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
