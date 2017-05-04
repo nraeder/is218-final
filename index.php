@@ -12,9 +12,8 @@ html {
 }
 	
 div {
-	background-color: white;
-	opacity: 0.5;
-	color: white;
+	background-color: white 0.5;
+	color: black;
 	text-align: left;
 	width: 50%;
 	padding: 10px;
