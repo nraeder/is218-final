@@ -30,7 +30,10 @@
 		</form>
 	</div></center>
 
-			<?php
+	<?php
+	
+	$query = mysql_query("SELECT * FROM Account where Email = '$_POST[Email]' AND Password = '$_POST[Password]'") or die(mysql_error()); $row = mysql_fetch_array($query) or die(mysql_error()); if(!empty($row['Email']) AND !empty($row['Password'])) { $_SESSION['Email'] = $row['Password']; echo "SUCCESSFULLY LOGIN TO USER PROFILE PAGE..."; } else { echo "SORRY... YOU ENTERD WRONG ID AND PASSWORD... PLEASE RETRY..."; }
+
 			
 			// Run the SQL query and put the results into $results (array)
 			$results = runQuery("SELECT * FROM Account ORDER BY id");
