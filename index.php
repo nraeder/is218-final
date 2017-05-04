@@ -32,7 +32,7 @@
 			Gender: <input type="text" name="Gender"><br>
 			Password: <input type="password" name="Password"><br>
 			<input type="submit">
-			<a href="https://web.njit.edu/~nar28/is218-final/logIn.php">Log In</a>
+			<a href="logIn.php">Log In</a>
 		</form>
 	</div></center>
 
