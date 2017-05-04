@@ -14,18 +14,17 @@ html {
 h2 {
 	font-family: "Rockwell";
 	font-size: 50px;
-	font-weight: 500;
 }
 	
 div {
 	font-family: "Rockwell";
-	font-size: 30px;
+	font-size: 20px;
 	color: white;
-	content: left;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
+	align-content: center;
 }
 </style>
 
