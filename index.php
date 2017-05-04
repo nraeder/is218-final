@@ -14,9 +14,9 @@ html {
 div {
 	background-color: white;
 	opacity: 0.5;
-	color: black;
+	color: white;
 	text-align: left;
-	width: 50%;
+	width: 30%;
 	padding: 10px;
 	margin-top: 50px;
 }
