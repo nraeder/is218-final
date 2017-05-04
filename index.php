@@ -18,6 +18,7 @@ div {
 	text-align: left;
 	width: 50%;
 	padding: 10px;
+	margin-top: 50px;
 }
 </style>
 
