@@ -12,8 +12,7 @@ html {
 }
 	
 div {
-	background-color: white;
-	color: black;
+	color: white;
 	content: left;
 	text-align: center;
 	margin-left: auto;
