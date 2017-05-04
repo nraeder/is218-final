@@ -46,7 +46,7 @@ h3 {
 
 <body>
 	<div>
-		<h3><h2>Register</h2>
+		<center><h3><h2>Register</h2>
 		<form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
 			Last Name: <input type="text" name="Last Name"><br>
@@ -57,7 +57,7 @@ h3 {
 			Password: <input type="password" name="Password"><br>
 			<input type="submit">
 			<a href="logIn.php">Log In</a>
-			</form></h3>
+			</form></h3></center>
 	</div>
 
 			<?php
