@@ -23,7 +23,7 @@
 <body>
 	<center><div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
 		<h2>Log In!</h2>
-		<form action="logIn.php" method="post">
+		<form action="doTo.php" method="post">
 			E-mail: <input type="text" name="Email"><br>
 			Password: <input type="password" name="Password"><br>
 			<input type="submit">
