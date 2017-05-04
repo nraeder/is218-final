@@ -37,10 +37,9 @@ ul {
     <meta name="author" content="">
 
     <title>To-Do List</title>
-	<h2>To-Do List</h2>
 </head>
-<body>
-
+<center><body>
+<h2>To-Do List</h2>
 <ul>
     <li>
         <form method="post">
@@ -61,7 +60,7 @@ ul {
         </form>
     </li>
 </ul>
-
+	</body></center>
 	<?php
 	
 	if(isset($_SESSION['First Name'])){
