@@ -48,7 +48,7 @@ h3 {
 <body>
 	<center><div>
 		<h2>Log In!</h2>
-		<form action="doTo.php" method="post">
+		<form action="toDo.php" method="post">
 			E-mail: <input type="text" name="Email"><br>
 			Password: <input type="password" name="Password"><br>
 			<input type="submit">
