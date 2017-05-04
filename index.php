@@ -10,6 +10,10 @@
 html {
 	background-image: url("http://www.designbolts.com/wp-content/uploads/2014/03/Marron-Mixed-High-resolution-blurr-background1.jpg");
 }
+
+h2 {
+	font-family: "Rockwell";	
+}
 	
 div {
 	color: white;
