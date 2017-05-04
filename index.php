@@ -22,10 +22,15 @@
 
 <body>
 	<div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
-		<h2>Log In</h2>
+		<h2>Register</h2>
 		<form action="register.php" method="post">
+			First Name: <input type="text" name="First Name"><br>
+			Last Name: <input type="text" name="Last Name"><br>
 			E-mail: <input type="text" name="email"><br>
-			Password: <input type="password" name="password"><br>
+			Phone Number: <input type="text" name="Phone Number"><br>
+			Birthday: <input type="text" name="DD/MM/YYYY"><br>
+			Gender: <input type="password" name="Gender"><br>
+			Password: <input type="password" name="Password"><br>
 			<input type="submit">
 		</form>
 	</div>
