@@ -40,6 +40,7 @@
 
 	<div>
 		<a href="index.php">Go back to main page.</a>
+		<a href="logIn.php">Log In!</a>
 	</div>
 
 </body>
