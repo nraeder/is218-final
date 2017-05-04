@@ -30,10 +30,6 @@
 		</form>
 	</div>
 
-
-	<!-- DATABASE RESULTS BOX -->
-	<div style="border: 2px solid black; padding: 5px; margin-bottom: 10px;">
-		<h2>Results from Database</h2>
 			<?php
 			
 			// Run the SQL query and put the results into $results (array)
@@ -50,7 +46,6 @@
 	
 			}
 		?>
-	</div>
 
 </body>
 
