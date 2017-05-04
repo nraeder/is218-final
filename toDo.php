@@ -18,7 +18,7 @@ h2 {
 ul {
 	font-family: "Cambria";
 	font-size: 20px;
-	color: white;
+	color: black;
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-top: 100px;
@@ -65,40 +65,7 @@ h3 {
     </li>
 </ul>
 
-<?php
-	
-namespace App\Page;
-
-class Index extends \Gt\Page\Logic {
-
-public function go() {
-    $taskList = [];
-
-    if(isset($_POST["action"])) {
-        switch($_POST["action"]) {
-        case "add":
-            break;
-
-        case "delete":
-            break;
-
-        case "update":
-            break;
-
-        case "check":
-            break;
-        }
-    }
-
-    foreach ($taskList as $i => $task) {
-    }
-
-}
-
-}
-	
-	
-	
+	<?php
 	
 	if(isset($_SESSION['First Name'])){
         	echo "Welcome '{$_SESSION['First Name']}'";
