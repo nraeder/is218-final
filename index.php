@@ -8,7 +8,7 @@
 ?>
 <style>
 html {
-	background-color: url(http://www.designbolts.com/wp-content/uploads/2014/03/Marron-Mixed-High-resolution-blurr-background1.jpg);
+	background-color: url("http://www.designbolts.com/wp-content/uploads/2014/03/Marron-Mixed-High-resolution-blurr-background1.jpg");
 }
 	
 div {
