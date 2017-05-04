@@ -26,6 +26,10 @@ div {
 	align-content: left;
 }
 	
+form {
+	background-color: white;	
+}	
+	
 h3 {
 	text-align: center;	
 }
