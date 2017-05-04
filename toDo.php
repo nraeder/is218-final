@@ -13,6 +13,7 @@ html {
 h2 {
 	font-family: "Rockwell";
 	font-size: 45px;
+	color: white;
 }
 	
 ul {
@@ -23,10 +24,6 @@ ul {
 	margin-right: 100px;
 	margin-top: 100px;
 	align-content: left;
-}	
-	
-h3 {
-	text-align: center;	
 }
 	
 </style>
