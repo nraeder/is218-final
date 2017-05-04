@@ -5,25 +5,25 @@
 <body>
 
 <?php
-	include_once 'connectDatabase.php';
+	include_once 'database.php';
 	
 
 	//Let's make sure the correct data is received. 
-	if (!isset($_REQUEST['email']) || !isset($_REQUEST['fname']) || !isset($_REQUEST['lname'])){
+	if (!isset($_REQUEST['Email']) || !isset($_REQUEST['First Name']) || !isset($_REQUEST['Last Name'])){
 		header('HTTP/1.1 500 Internal Server Error');
 		exit("ERROR: There was an error writing to the database. Some required data was missing.");
 	}
-	else if ($_REQUEST['email'] == null || $_REQUEST['fname'] == null || $_REQUEST['lname'] == null){
+	else if ($_REQUEST['Email'] == null || $_REQUEST['First Name'] == null || $_REQUEST['Last Name'] == null){
 		header('HTTP/1.1 500 Internal Server Error');
 		exit("ERROR: There was an error writing to the database. Some required data was blank.<br><a href='index.php'>Go back to main page.</a>");
 	}
 
-	$useremail = $_REQUEST['email'];
-	$firstname = $_REQUEST['fname'];
-	$lastname = $_REQUEST['lname'];
+	$useremail = $_REQUEST['Email'];
+	$firstname = $_REQUEST['First Name'];
+	$lastname = $_REQUEST['Last Name'];
 
 	//Let's make sure the e-mail exists (so we can modify it).
-	$sql = 'SELECT * FROM accounts WHERE email="'.$useremail.'"';
+	$sql = 'SELECT * FROM Account and Profile Info WHERE email="'.$useremail.'"';
 	$results = runQuery($sql);
 	
 	//If the following line has results (the array length is more than 0), that means data/e-mail exists.
@@ -33,7 +33,7 @@
 	}
 
 	//Let's update the entry
-	$sql = 'UPDATE accounts SET fname="'.$firstname.'", lname="'.$lastname.'" WHERE email ="'.$useremail.'"';
+	$sql = 'UPDATE Accounts and Profile Info SET First Name="'.$firstname.'", Last Name="'.$lastname.'" WHERE Email ="'.$useremail.'"';
 	$results = runQuery($sql);
 	
 	echo "User Updated.";
