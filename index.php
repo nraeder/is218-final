@@ -12,7 +12,7 @@ html {
 }
 	
 div {
-	background-color: white 0.5;
+	background-color: white;
 	color: black;
 	text-align: left;
 	width: 50%;
