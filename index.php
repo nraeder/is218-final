@@ -16,43 +16,19 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>To-Do List for 218</title>
+    <title>IS 218 Final</title>
 
 </head>
 
 <body>
-	<!-- ADD USER BOX -->
 	<div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
-		<h2>Add User</h2>
-		<form action="addUser.php" method="post">
+		<h2>Log In</h2>
+		<form action="logIn.php" method="post">
 			E-mail: <input type="text" name="email"><br>
 			Password: <input type="password" name="password"><br>
 			<input type="submit">
 		</form>
 	</div>
-	
-
-	<!-- DELETE USER BOX -->
-	<div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
-		<h2>Delete User</h2>
-		<form action="deleteUser.php" method="post">
-			E-mail: <input type="text" name="email"><br>
-			<input type="submit">
-		</form>
-	</div>
-
-
-	<!-- MODIFY USER BOX -->
-	<div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
-		<h2>Modify User</h2>
-		<form action="modifyUser.php" method="post">
-			E-mail: <input type="text" name="email"><br>
-			First name: <input type="text" name="fname"><br>
-			Last name: <input type="text" name="lname"><br>
-			<input type="submit">
-		</form>
-	</div>
-
 
 
 	<!-- DATABASE RESULTS BOX -->
