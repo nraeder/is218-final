@@ -24,10 +24,6 @@ div {
 	margin-right: 100px;
 	margin-top: 100px;
 	align-content: left;
-}
-	
-form {
-	background-color: orange;	
 }	
 	
 h3 {
