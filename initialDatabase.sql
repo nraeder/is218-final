@@ -23,24 +23,24 @@
 # Dump of table accounts
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `accounts`;
+DROP TABLE IF EXISTS `Account`;
 
-CREATE TABLE `accounts` (
+CREATE TABLE `Account` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `email` varchar(60) DEFAULT NULL,
-  `fname` varchar(30) DEFAULT NULL,
-  `lname` varchar(30) DEFAULT NULL,
-  `phone` varchar(20) DEFAULT NULL,
-  `birthday` date DEFAULT NULL,
-  `gender` varchar(20) DEFAULT NULL,
-  `password` varchar(30) DEFAULT NULL,
+  `Email` varchar(60) DEFAULT NULL,
+  `First Name` varchar(30) DEFAULT NULL,
+  `Last Name` varchar(30) DEFAULT NULL,
+  `Phone Number` varchar(20) DEFAULT NULL,
+  `Birthday` date DEFAULT NULL,
+  `Gender` varchar(20) DEFAULT NULL,
+  `Password` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `accounts` WRITE;
+LOCK TABLES `Account` WRITE;
 /*!40000 ALTER TABLE `accounts` DISABLE KEYS */;
 
-INSERT INTO `accounts` (`id`, `email`, `fname`, `lname`, `phone`, `birthday`, `gender`, `password`)
+INSERT INTO `Account` (`id`, `Email`, `First Name`, `Last Name`, `Phone Number`, `Birthday`, `Gender`, `Password`)
 VALUES
 	(1,'mjlee@njit.edu','Mike','Lee','974-555-5555','2000-05-05','male','1234'),
 	(2,'janedoe@njit.edu','John','Doe','555-555-5555','1950-07-07','female','1234');
