@@ -46,7 +46,7 @@ h3 {
 </head>
 
 <body>
-	<center><div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
+	<center><div>
 		<h2>Log In!</h2>
 		<form action="doTo.php" method="post">
 			E-mail: <input type="text" name="Email"><br>
