@@ -26,6 +26,9 @@ div {
 	align-content: left;
 }
 	
+h3 {
+	text-align: center;	
+}
 	
 </style>
 
@@ -44,7 +47,7 @@ div {
 <body>
 	<div>
 		<h2>Register</h2>
-		<form action="register.php" method="post">
+		<h3><form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
 			Last Name: <input type="text" name="Last Name"><br>
 			E-mail: <input type="text" name="Email"><br>
@@ -54,7 +57,7 @@ div {
 			Password: <input type="password" name="Password"><br>
 			<input type="submit">
 			<a href="logIn.php">Log In</a>
-		</form>
+			</form></h3>
 	</div>
 
 			<?php
