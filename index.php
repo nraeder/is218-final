@@ -13,7 +13,7 @@ html {
 
 h2 {
 	font-family: "Rockwell";
-	font-size: 50px;
+	font-size: 45px;
 }
 	
 div {
@@ -24,8 +24,10 @@ div {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
-	align-content: center;
+	align-content: left;
 }
+	
+	
 </style>
 
 <head>
