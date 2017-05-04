@@ -3,7 +3,7 @@
 
 <?php
 
-	include_once 'connectDatabase.php';
+	include_once 'database.php';
 	
 ?>
 
@@ -21,7 +21,7 @@
 </head>
 
 <body>
-	<div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
+	<center><div style="border: 1px dotted black; padding: 5px; margin-bottom: 10px;">
 		<h2>Register</h2>
 		<form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
@@ -33,7 +33,7 @@
 			Password: <input type="password" name="Password"><br>
 			<input type="submit">
 		</form>
-	</div>
+	</div></center>
 
 			<?php
 			
