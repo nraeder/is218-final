@@ -16,7 +16,7 @@ div {
 	opacity: 0.5;
 	color: white;
 	text-align: left;
-	width: 30%;
+	width: auto;
 	padding: 10px;
 	margin-top: 50px;
 }
@@ -35,7 +35,7 @@ div {
 </head>
 
 <body>
-	<center><div>
+	<div>
 		<h2>Register</h2>
 		<form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
@@ -48,7 +48,7 @@ div {
 			<input type="submit">
 			<a href="logIn.php">Log In</a>
 		</form>
-	</div></center>
+	</div>
 
 			<?php
 			
