@@ -8,7 +8,9 @@
 ?>
 <style>
 div {
-	color: lightblue;
+	background-color: lightblue;
+	color: black;
+	text-align: left;
 }
 </style>
 
@@ -25,7 +27,7 @@ div {
 </head>
 
 <body>
-	<center><div style="border: 1px dotted black; padding: 5px; margin-bottom: auto;">
+	<center><div>
 		<h2>Register</h2>
 		<form action="register.php" method="post">
 			First Name: <input type="text" name="First Name"><br>
