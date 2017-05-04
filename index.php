@@ -17,7 +17,7 @@ h2 {
 }
 	
 div {
-	font-family: "Rockwell";
+	font-family: "Cambria";
 	font-size: 20px;
 	color: white;
 	margin-left: 100px;
