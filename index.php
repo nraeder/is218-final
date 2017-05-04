@@ -14,6 +14,7 @@ html {
 div {
 	background-color: white;
 	color: black;
+	content: left;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
