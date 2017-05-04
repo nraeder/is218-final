@@ -44,19 +44,25 @@ h3 {
 </head>
 <body>
 
-<div id="toDo" class="header">
-  <h2>To-Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-</div>
+<ul>
+    <li>
+        <form method="post">
+            <input class="index" type="hidden" name="index" />
+            <input name="title" value="" />
 
-<ul id="myUL">
-  <li>Hit the gym</li>
-  <li class="checked">Pay bills</li>
-  <li>Meet George</li>
-  <li>Buy eggs</li>
-  <li>Read a book</li>
-  <li>Organize office</li>
+            <button name="action" value="update">
+                <span>Update</span>
+            </button>
+
+            <button name="action" value="delete">
+                <span>Delete</span>
+            </button>
+
+            <button name="action" value="check">
+                <span>Check</span>
+            </button>
+        </form>
+    </li>
 </ul>
 
 	<?php
