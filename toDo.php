@@ -65,7 +65,41 @@ h3 {
     </li>
 </ul>
 
-	<?php
+<?php
+	
+namespace App\Page;
+
+class Index extends \Gt\Page\Logic {
+
+public function go() {
+    $taskList = [];
+
+    if(isset($_POST["action"])) {
+        switch($_POST["action"]) {
+        case "add":
+            break;
+
+        case "delete":
+            break;
+
+        case "update":
+            break;
+
+        case "check":
+            break;
+        }
+    }
+
+    foreach ($taskList as $i => $task) {
+    }
+
+}
+
+}
+	
+	
+	
+	
 	if(isset($_SESSION['First Name'])){
         	echo "Welcome '{$_SESSION['First Name']}'";
 	}
