@@ -6,7 +6,32 @@
 	include_once 'database.php';
 	
 ?>
+	
+<style>
+html {
+	background-image: url("http://www.designbolts.com/wp-content/uploads/2014/03/Marron-Mixed-High-resolution-blurr-background1.jpg");
+}
 
+h2 {
+	font-family: "Rockwell";
+	font-size: 45px;
+}
+	
+div {
+	font-family: "Cambria";
+	font-size: 20px;
+	color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	align-content: left;
+}	
+	
+h3 {
+	text-align: center;	
+}
+	
+</style>
 
 <head>
 
