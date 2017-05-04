@@ -15,7 +15,7 @@ div {
 	background-color: white;
 	color: black;
 	text-align: left;
-	width: auto;
+	width: 50%;
 	padding: 10px;
 }
 </style>
