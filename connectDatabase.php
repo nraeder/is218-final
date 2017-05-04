@@ -14,7 +14,7 @@
         
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
-        http_error(500, "Internal Server Error", "We couldn't connect to a Heroku MySQL database.");
+        http_error(500, "Internal Server Error", "We couldn't connect to a MySQL database.");
         header('HTTP/1.1 500 Internal Server Error');
 		exit("ERROR: There was an error connecting to the mySQL database. Error message: ".$error_message);
     }
